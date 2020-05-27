@@ -1,0 +1,30 @@
+Header {
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout {
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    background-color: var(--orange);
+    border: none;
+    border-radius: 5px;
+    padding: 4px 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin: 15px 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,49 @@
+.Search form {
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue);
+  border: solid 2px var(--blueAccent);
+  border-radius: 10px;
+}
+
+.Search label {
+  // background-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 10px 15px;
+  font-weight: 700;
+}
+
+.Search input {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px 15px;
+  color: rgba(60, 60, 60.1);
+  border: 2px solid var(--blueAccent);
+  &:focus {
+    outline: 2px solid var(--orange);
+  }
+}
+
+.Search input[type='number'] {
+  width: 60px;
+}
+
+.Search input[id='price'] {
+  width: 100px;
+}
+
+.Search input[type='submit'] {
+  background-color: var(--orange);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin: 15px 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
