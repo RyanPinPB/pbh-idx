@@ -14,9 +14,10 @@ class Login extends Component {
           }}
           id='username'
           type='text'
+          placeholder='Username'
         />
         <label htmlFor='password'>Password</label>
-        <input id='password' type='text' />
+        <input id='password' type='password' placeholder='Password' />
         <button
           type='submit'
           disabled={!this.props.startedTyping}
